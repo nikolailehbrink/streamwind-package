@@ -1,5 +1,5 @@
 {
-  "name": "streamwind-package",
+  "name": "@nikolailehbrink/streamwind-package",
   "version": "1.0.0",
   "description": "A package to work with colors and themes",
   "main": "streamwind.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikolailehbrink/streamwind-package.git"
+    "url": "https://github.com/nikolailehbrink/streamwind-package.git"
   },
     "publishConfig": {
     "registry": "https://npm.pkg.github.com/nikolailehbrink"
