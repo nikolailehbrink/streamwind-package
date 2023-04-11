@@ -1,0 +1,28 @@
+{
+  "name": "streamwind-package",
+  "version": "1.0.0",
+  "description": "A package to work with colors and themes",
+  "main": "streamwind.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolailehbrink/streamwind-package.git"
+  },
+  "keywords": [
+    "color",
+    "theme",
+    "tailwindcss",
+    "wordpress"
+  ],
+  "author": "Nikolai Lehbrink",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolailehbrink/streamwind-package/issues"
+  },
+  "homepage": "https://github.com/nikolailehbrink/streamwind-package#readme",
+  "devDependencies": {
+    "color": "^4.2.3"
+  }
+}
