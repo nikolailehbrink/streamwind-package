@@ -1,6 +1,6 @@
 # Streamwind Color Utility
 
-This package provides utility functions to generate color shades and map colors from a `theme.json` file to a `tailwind.config.js` file.
+A utility to generate and map color shades from a given theme configuration, designed for the Streamwind boilerplate Wordpress theme and suitable for integration with frameworks like Tailwind CSS. It provides functions to access nested theme properties, generate shades for a given color, and map colors with their shades from a theme configuration file.
 
 ## Features
 
@@ -13,7 +13,7 @@ This package provides utility functions to generate color shades and map colors 
 To install the package, run:
 
 ```sh
-npm install @nikolailehbrink/streamwind-package
+npm i streamwind-package
 ```
 
 # Usage
@@ -21,7 +21,7 @@ npm install @nikolailehbrink/streamwind-package
 To use the package, import it in your project:
 
 ```javascript
-const streamwind = require("@nikolailehbrink/streamwind-package");
+const streamwind = require("streamwind-package");
 ```
 
 ## Accessing nested properties in a theme object
