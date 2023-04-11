@@ -1,7 +1,7 @@
 {
   "name": "streamwind-package",
-  "version": "1.0.1",
-  "description": "A package to work with colors and themes",
+  "version": "1.0.2",
+  "description": "A utility to generate and map color shades from a given theme configuration, designed for the Streamwind boilerplate Wordpress theme and suitable for integration with frameworks like Tailwind CSS. It provides functions to access nested theme properties, generate shades for a given color, and map colors with their shades from a theme configuration file.",
   "main": "streamwind.js",
   "scripts": {
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
@@ -17,16 +17,16 @@
     "wordpress"
   ],
   "publishConfig": {
-  "registry": "https://registry.npmjs.org/",
-  "access": "public"
-},
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "author": "Nikolai Lehbrink",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nikolailehbrink/streamwind-package/issues"
   },
   "homepage": "https://github.com/nikolailehbrink/streamwind-package#readme",
-  "devDependencies": {
+  "dependencies": {
     "color": "^4.2.3"
   }
 }
